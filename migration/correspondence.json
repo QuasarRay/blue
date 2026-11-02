@@ -2044,7 +2044,8 @@
     "migration/receipts/20261102T051727774920Z-original-tests.json",
     "migration/receipts/20261102T052030923694Z-build.json",
     "migration/receipts/20261102T052151226455Z-original-tests.json",
-    "migration/receipts/20261102T052151Z-publication.json"
+    "migration/receipts/20261102T052151Z-publication.json",
+    "migration/receipts/20261102T052640Z-event-publication.json"
   ],
   "source_files": [
     {
@@ -15976,6 +15977,12 @@
       "branch": "blue-rs-dev",
       "receipt": "migration/receipts/20261102T052151Z-publication.json",
       "scope": "foundation-memstream"
+    },
+    {
+      "commit": "4c9903e818935036e97486dce2026641346b48ff",
+      "branch": "blue-rs-dev",
+      "receipt": "migration/receipts/20261102T052640Z-event-publication.json",
+      "scope": "initial object/decoration/event/Python-task/Bevy path"
     }
   ],
   "external_dependencies": {

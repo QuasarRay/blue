@@ -1,5 +1,20 @@
 name: Rust Linux
-on: [push, pull_request]
+on:
+  push:
+    paths: &runtime-inputs
+      - 'src/**'
+      - 'tools/**'
+      - 'tests/**'
+      - 'reference/blueexposure/**'
+      - 'Cargo.toml'
+      - 'Cargo.lock'
+      - 'rust-toolchain.toml'
+      - '.python-version'
+      - '.github/workflows/**'
+      - '**/AGENTS.MD'
+      - 'AGENTS.MD'
+  pull_request:
+    paths: *runtime-inputs
 permissions:
   contents: write
 jobs:

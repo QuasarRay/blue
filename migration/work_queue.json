@@ -21,7 +21,10 @@
       "depends_on": [
         "foundation-memstream"
       ],
-      "next_action": "Publish event/pump/decorator milestone, then complete original BlueTestHelperAttributes and test_blue, full registration IDs/interfaces and fixture inheritance. Keep scheduler lifecycle/async and all partial source-method obligations open."
+      "next_action": "Complete original BlueTestHelperAttributes and test_blue; full IBlueClasses registration IDs/interfaces, wrapper identity, source helper fields and fixture inheritance. Event timing path is published; keep broad partial source-method obligations open.",
+      "publications": [
+        "4c9903e818935036e97486dce2026641346b48ff"
+      ]
     },
     {
       "id": "blueexposure-fixtures",

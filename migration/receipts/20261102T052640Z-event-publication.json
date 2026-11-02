@@ -1,0 +1,25 @@
+{
+  "kind": "publication",
+  "recorded_at_utc": "2026-11-02T05:26:40.018937+00:00",
+  "repository": "https://github.com/QuasarRay/blue.git",
+  "branch": "blue-rs-dev",
+  "commit": "4c9903e818935036e97486dce2026641346b48ff",
+  "tree": "1a609946b48965a1f87d4a722b58a553f452fa24",
+  "parent": "8bae0e237d3a0017efe6afa3aac8519db80ef3c8",
+  "mechanism": "Connected GitHub Git Data API; remote tree exactly matched local staged tree; expected-SHA guarded update with force=false",
+  "remote_verification": "GET git/ref/heads/blue-rs-dev and git fetch origin blue-rs-dev both returned the milestone commit",
+  "visible_branch": "blue-rs-dev",
+  "visible_head": "4c9903e818935036e97486dce2026641346b48ff",
+  "scope": "Initial real Blue wrapper/decorator, Python task, synchronous/posted event and Bevy pump path; broad types remain partial",
+  "release_build_receipt": "migration/receipts/20261102T052030923694Z-build.json",
+  "original_tests_receipt": "migration/receipts/20261102T052151226455Z-original-tests.json",
+  "workflow_url": "https://github.com/QuasarRay/blue/actions/runs/41393864893",
+  "github_ci": {
+    "run_id": 41393864893,
+    "head_sha": "4c9903e818935036e97486dce2026641346b48ff",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/QuasarRay/blue/actions/runs/41393864893",
+    "verified_at_utc": "2026-11-02T05:28:14.367092+00:00"
+  }
+}
