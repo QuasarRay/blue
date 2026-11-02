@@ -3,11 +3,14 @@
 #![allow(non_snake_case)]
 
 use crate::{BlueRuntime, ICcpStream, MemStream, ObjectHandle, SeekOrigin};
-use pyo3::exceptions::{PyImportError, PyValueError};
+use pyo3::exceptions::{PyImportError, PyNotImplementedError, PyValueError};
 use pyo3::prelude::*;
 use pyo3::types::{PyBytes, PyModule};
+pub(crate) mod events;
+pub mod wrapper;
+use wrapper::BlueWrapper;
 
-#[pyclass(name = "MemStream", module = "blue", frozen)]
+#[pyclass(name = "MemStream", module = "blue", extends=BlueWrapper, frozen)]
 struct PyMemStream {
     handle: ObjectHandle<MemStream>,
 }
@@ -15,10 +18,13 @@ struct PyMemStream {
 #[pymethods]
 impl PyMemStream {
     #[new]
-    fn new(py: Python<'_>) -> Self {
-        Self {
-            handle: py.detach(|| BlueRuntime::shared().create("blue.MemStream", MemStream::new())),
-        }
+    fn new(py: Python<'_>) -> PyClassInitializer<Self> {
+        PyClassInitializer::from(BlueWrapper::new("blue.MemStream", &["size", "pos"])).add_subclass(
+            Self {
+                handle: py
+                    .detach(|| BlueRuntime::shared().create("blue.MemStream", MemStream::new())),
+            },
+        )
     }
     #[pyo3(signature = (size=-1))]
     fn Read<'py>(&self, py: Python<'py>, size: isize) -> PyResult<Bound<'py, PyBytes>> {
@@ -38,7 +44,19 @@ impl PyMemStream {
         Ok(PyBytes::new(py, &data))
     }
     #[pyo3(signature = (value, size=-1))]
-    fn Write(&self, py: Python<'_>, value: &[u8], size: isize) -> PyResult<()> {
+    fn Write(&self, py: Python<'_>, value: &Bound<'_, PyAny>, size: isize) -> PyResult<()> {
+        let buffer = pyo3::buffer::PyUntypedBuffer::get(value)?;
+        if !buffer.is_c_contiguous() && !buffer.is_fortran_contiguous() {
+            return Err(PyNotImplementedError::new_err(
+                "Support for non-contiguous buffers is currently not implemented",
+            ));
+        }
+        let bytes = py
+            .import("builtins")?
+            .getattr("memoryview")?
+            .call1((value,))?
+            .call_method1("tobytes", ("A",))?;
+        let value: &[u8] = bytes.extract()?;
         // Source writes at least the buffer length. Larger explicit sizes read
         // past the source buffer in C++; native Rust rejects that pointer UB.
         if size > value.len() as isize {
@@ -62,7 +80,7 @@ impl PyMemStream {
         self.Read(py, size)
     }
     #[pyo3(signature = (value, size=-1))]
-    fn write(&self, py: Python<'_>, value: &[u8], size: isize) -> PyResult<()> {
+    fn write(&self, py: Python<'_>, value: &Bound<'_, PyAny>, size: isize) -> PyResult<()> {
         self.Write(py, value, size)
     }
     #[pyo3(signature = (pos, whence=0))]
@@ -83,6 +101,9 @@ impl PyMemStream {
 struct PyBlueClasses;
 #[pymethods]
 impl PyBlueClasses {
+    fn CreateInstance(&self, py: Python<'_>, name: &str) -> PyResult<Py<PyAny>> {
+        crate::BlueClasses::PyCreateInstance(py, name)
+    }
     fn LiveCount(&self, py: Python<'_>) -> std::collections::BTreeMap<String, usize> {
         py.detach(|| BlueRuntime::shared().LiveCount())
     }
@@ -104,7 +125,9 @@ fn blue(m: &Bound<'_, PyModule>) -> PyResult<()> {
             "Blue requires free-threaded CPython with the GIL disabled; use tools/build.py and tools/run_original_tests.py",
         ));
     }
+    m.add_class::<BlueWrapper>()?;
     m.add_class::<PyMemStream>()?;
     m.add("classes", Py::new(py, PyBlueClasses)?)?;
+    events::register(m)?;
     Ok(())
 }

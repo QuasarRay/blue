@@ -11,6 +11,8 @@ import json
 import os
 import sys
 import unittest
+import time
+from concurrent.futures import Future
 from pathlib import Path
 from evidence import ROOT, identity, python_path, require_free_threaded, save_receipt, sha
 
@@ -61,7 +63,20 @@ def main():
         suite.addTests(unittest.defaultTestLoader.loadTestsFromName(module_name))
     after_imports = require_free_threaded()
     output = io.StringIO()
-    result = unittest.TextTestRunner(stream=output, verbosity=2, resultclass=RecordedResult).run(suite)
+    completion = Future()
+    def run_suite():
+        try:
+            completion.set_result(unittest.TextTestRunner(stream=output, verbosity=2, resultclass=RecordedResult).run(suite))
+        except BaseException as error:
+            completion.set_exception(error)
+    # Original bluetests.__main__ runs its suite in a scheduler task while the
+    # host pumps BlueOS. Retain that infrastructure relationship using the real
+    # Rust task/Pump path, without depending on the obsolete Stackless host.
+    task = blue.pyos.CreateTasklet(run_suite)
+    while not completion.done() or task.alive:
+        blue.os.Pump()
+        time.sleep(0.0005)
+    result = completion.result()
     print(output.getvalue(), end='')
     after_run = require_free_threaded()
     for case in result.cases:

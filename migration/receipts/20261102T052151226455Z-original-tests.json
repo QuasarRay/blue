@@ -1,0 +1,104 @@
+{
+  "kind": "original-tests",
+  "recorded_at_utc": "2026-11-02T05:21:51.226478+00:00",
+  "command": [
+    "/home/astral/Projects/blue/.tools/python/cpython-3.15.2+freethreaded-linux-x86_64-gnu/bin/python3.15t",
+    "tools/run_original_tests.py",
+    "tests/python/bluetests/test/test_memstream.py",
+    "tests/python/bluetests/test/test_events.py"
+  ],
+  "implementation": {
+    "sha256": "1d0089fae4204b64542d6da1a42025e07f09443c0bf8ee44eb411003f86aaf6c",
+    "files": {
+      "Cargo.toml": "67008f12f34408466d190bad3738923788b9033bc7628ef2758c5dd5d03ca426",
+      "Cargo.lock": "4698378b91ae7581cc0c332c64ce8404ffae679bdb780693b1666418b1482e2c",
+      "rust-toolchain.toml": "887f9be066a15585a2c583578e84b0fcb541126d81546276bad3d2ff00d61167",
+      ".python-version": "39ffc2625da26573205b0d093e18c86fd0fa2274a0049610b3f64316ad2ecb7a",
+      "src/exposure/events.rs": "d2902acb277e02c119c55cee8b4cbf8da49d4c51da4c723ea6264cf8dfe9a93f",
+      "src/exposure/mod.rs": "189ebfb3da5d1a0943afac679d5c13c060794d434ac6d3e949013d0fa7e3cb10",
+      "src/exposure/wrapper.rs": "1d75a048156e66ac58c53c44aa7d4305788eb2a09a3b775331e64dc17f2d3049",
+      "src/lib.rs": "3e59e1620efc71f166f9d1b45285e20dde4a7ab48ca8ad8f7ca1375a88d00bd1",
+      "src/os.rs": "9518e41e931104f8080cf193bb47fdd725a557293d532126828eb6ae8b485116",
+      "src/python_runtime.rs": "27e37d45d952c8c6b99c6cc2d6204833a334e2331df2138f0ff01c567216bd5b",
+      "src/runtime.rs": "e87d436dadc19b9bfc1542fbf9ca3420ab60450d05dc51622e3b28480ca555f1",
+      "src/streams.rs": "47fc2298540f668ef4b04cfe5c9471cf0e9f800be0ca1fa9dcdc780c70a3bf6c",
+      "tools/evidence.py": "2b39ce8d209209da472616680e4d59a56de31ef457e6208ad6f2c98c24ec89e8",
+      "tools/build.py": "311b72e27298da7e698256fb906dd3af5e3df3100b8efdcd7bd2c8074a9399f5",
+      "tools/run_original_tests.py": "f8ae39f2066a69caf80f9b8a02d03536299c684107c12889ab4cdaf66b66ce20"
+    },
+    "git_head": "8bae0e237d3a0017efe6afa3aac8519db80ef3c8"
+  },
+  "source_files": {
+    "tests/python/bluetests/test/test_memstream.py": "c535c3a52e3bded5b5144584275867820191906e649b56b10532d146b74c044d",
+    "tests/python/bluetests/test/test_events.py": "e0aa5b951a86e6b4d8cf3029191e985d274d77ec63812d37e89f9e29031d455b"
+  },
+  "extension": {
+    "path": ".runtime/blue.cpython-315t-x86_64-linux-gnu.so",
+    "sha256": "25f27c4877a3cfbfdbf80d70132721745355a68e96de45176f8d8fa842a80845"
+  },
+  "python_before": {
+    "executable": "/home/astral/Projects/blue/.tools/python/cpython-3.15.2+freethreaded-linux-x86_64-gnu/bin/python3.15t",
+    "version": "3.15.2 free-threading build (main, Oct 26 2026, 14:06:54) [Clang 23.1.3 ]",
+    "implementation": "cpython",
+    "Py_GIL_DISABLED": 1,
+    "gil_enabled": false,
+    "SOABI": "cpython-315t-x86_64-linux-gnu",
+    "EXT_SUFFIX": ".cpython-315t-x86_64-linux-gnu.so",
+    "CONFIG_ARGS": "'--build=x86_64-unknown-linux-gnu' '--host=x86_64-unknown-linux-gnu' '--prefix=/install' '--with-openssl=/tools/deps' '--with-system-expat' '--without-ensurepip' '--with-readline=editline' '--with-tail-call-interp' '--with-system-libmpdec' 'MODULE_BUILDTYPE=static' '--enable-loadable-sqlite-extensions' '--enable-static-libpython-for-interpreter' '--enable-shared' '--with-mimalloc' '--disable-gil' '--enable-optimizations' '--enable-bolt' '--with-lto=full' '--with-build-python=/tools/host/bin/python3.15' 'ac_cv_func_explicit_bzero=no' '--with-dbmliborder=bdb' 'build_alias=x86_64-unknown-linux-gnu' 'host_alias=x86_64-unknown-linux-gnu' 'PKG_CONFIG=pkg-config --static' 'PKG_CONFIG_PATH=/tools/deps/share/pkgconfig:/tools/deps/lib/pkgconfig' 'CC=clang' 'CFLAGS= -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC ' 'LDFLAGS= -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--build-id=sha1 -Wl,--exclude-libs,ALL' 'CPPFLAGS= -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC ' 'PROFILE_TASK=-m test --pgo -j 4 --ignore test.test_bytes.BytesTest.test_from_format' 'BOLT_COMMON_FLAGS=-update-debug-sections -skip-funcs=_Py_trampoline_func_.*,RC4_options/1,sha256_update/.*,sha512_update/.*,PyBlake2_blake2b_compress/.*,PyBlake2_blake2s_compress/.*,update_block.*' 'BOLT_APPLY_FLAGS=-update-debug-sections -skip-funcs=_Py_trampoline_func_.*,RC4_options/1,sha256_update/.*,sha512_update/.*,PyBlake2_blake2b_compress/.*,PyBlake2_blake2s_compress/.*,update_block.* -reorder-blocks=ext-tsp -reorder-functions=cdsort -split-functions -split-strategy=cdsplit -icf=safe -inline-all -split-eh -reorder-functions-use-hot-size -peepholes=none -jump-tables=aggressive -inline-ap -indirect-call-promotion=all -dyno-stats -frame-opt=hot'"
+  },
+  "python_after_imports": {
+    "executable": "/home/astral/Projects/blue/.tools/python/cpython-3.15.2+freethreaded-linux-x86_64-gnu/bin/python3.15t",
+    "version": "3.15.2 free-threading build (main, Oct 26 2026, 14:06:54) [Clang 23.1.3 ]",
+    "implementation": "cpython",
+    "Py_GIL_DISABLED": 1,
+    "gil_enabled": false,
+    "SOABI": "cpython-315t-x86_64-linux-gnu",
+    "EXT_SUFFIX": ".cpython-315t-x86_64-linux-gnu.so",
+    "CONFIG_ARGS": "'--build=x86_64-unknown-linux-gnu' '--host=x86_64-unknown-linux-gnu' '--prefix=/install' '--with-openssl=/tools/deps' '--with-system-expat' '--without-ensurepip' '--with-readline=editline' '--with-tail-call-interp' '--with-system-libmpdec' 'MODULE_BUILDTYPE=static' '--enable-loadable-sqlite-extensions' '--enable-static-libpython-for-interpreter' '--enable-shared' '--with-mimalloc' '--disable-gil' '--enable-optimizations' '--enable-bolt' '--with-lto=full' '--with-build-python=/tools/host/bin/python3.15' 'ac_cv_func_explicit_bzero=no' '--with-dbmliborder=bdb' 'build_alias=x86_64-unknown-linux-gnu' 'host_alias=x86_64-unknown-linux-gnu' 'PKG_CONFIG=pkg-config --static' 'PKG_CONFIG_PATH=/tools/deps/share/pkgconfig:/tools/deps/lib/pkgconfig' 'CC=clang' 'CFLAGS= -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC ' 'LDFLAGS= -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--build-id=sha1 -Wl,--exclude-libs,ALL' 'CPPFLAGS= -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC ' 'PROFILE_TASK=-m test --pgo -j 4 --ignore test.test_bytes.BytesTest.test_from_format' 'BOLT_COMMON_FLAGS=-update-debug-sections -skip-funcs=_Py_trampoline_func_.*,RC4_options/1,sha256_update/.*,sha512_update/.*,PyBlake2_blake2b_compress/.*,PyBlake2_blake2s_compress/.*,update_block.*' 'BOLT_APPLY_FLAGS=-update-debug-sections -skip-funcs=_Py_trampoline_func_.*,RC4_options/1,sha256_update/.*,sha512_update/.*,PyBlake2_blake2b_compress/.*,PyBlake2_blake2s_compress/.*,update_block.* -reorder-blocks=ext-tsp -reorder-functions=cdsort -split-functions -split-strategy=cdsplit -icf=safe -inline-all -split-eh -reorder-functions-use-hot-size -peepholes=none -jump-tables=aggressive -inline-ap -indirect-call-promotion=all -dyno-stats -frame-opt=hot'"
+  },
+  "python_after_run": {
+    "executable": "/home/astral/Projects/blue/.tools/python/cpython-3.15.2+freethreaded-linux-x86_64-gnu/bin/python3.15t",
+    "version": "3.15.2 free-threading build (main, Oct 26 2026, 14:06:54) [Clang 23.1.3 ]",
+    "implementation": "cpython",
+    "Py_GIL_DISABLED": 1,
+    "gil_enabled": false,
+    "SOABI": "cpython-315t-x86_64-linux-gnu",
+    "EXT_SUFFIX": ".cpython-315t-x86_64-linux-gnu.so",
+    "CONFIG_ARGS": "'--build=x86_64-unknown-linux-gnu' '--host=x86_64-unknown-linux-gnu' '--prefix=/install' '--with-openssl=/tools/deps' '--with-system-expat' '--without-ensurepip' '--with-readline=editline' '--with-tail-call-interp' '--with-system-libmpdec' 'MODULE_BUILDTYPE=static' '--enable-loadable-sqlite-extensions' '--enable-static-libpython-for-interpreter' '--enable-shared' '--with-mimalloc' '--disable-gil' '--enable-optimizations' '--enable-bolt' '--with-lto=full' '--with-build-python=/tools/host/bin/python3.15' 'ac_cv_func_explicit_bzero=no' '--with-dbmliborder=bdb' 'build_alias=x86_64-unknown-linux-gnu' 'host_alias=x86_64-unknown-linux-gnu' 'PKG_CONFIG=pkg-config --static' 'PKG_CONFIG_PATH=/tools/deps/share/pkgconfig:/tools/deps/lib/pkgconfig' 'CC=clang' 'CFLAGS= -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC ' 'LDFLAGS= -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--build-id=sha1 -Wl,--exclude-libs,ALL' 'CPPFLAGS= -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC ' 'PROFILE_TASK=-m test --pgo -j 4 --ignore test.test_bytes.BytesTest.test_from_format' 'BOLT_COMMON_FLAGS=-update-debug-sections -skip-funcs=_Py_trampoline_func_.*,RC4_options/1,sha256_update/.*,sha512_update/.*,PyBlake2_blake2b_compress/.*,PyBlake2_blake2s_compress/.*,update_block.*' 'BOLT_APPLY_FLAGS=-update-debug-sections -skip-funcs=_Py_trampoline_func_.*,RC4_options/1,sha256_update/.*,sha512_update/.*,PyBlake2_blake2b_compress/.*,PyBlake2_blake2s_compress/.*,update_block.* -reorder-blocks=ext-tsp -reorder-functions=cdsort -split-functions -split-strategy=cdsplit -icf=safe -inline-all -split-eh -reorder-functions-use-hot-size -peepholes=none -jump-tables=aggressive -inline-ap -indirect-call-promotion=all -dyno-stats -frame-opt=hot'"
+  },
+  "cases": [
+    {
+      "runner_id": "bluetests.test.test_memstream.testMemStream.testCreate",
+      "status": "passed",
+      "source_id": "blue::tests/python/bluetests/test/test_memstream.py::testMemStream::testCreate::1"
+    },
+    {
+      "runner_id": "bluetests.test.test_memstream.testMemStream.testMultipleWriteAndReadBack",
+      "status": "passed",
+      "source_id": "blue::tests/python/bluetests/test/test_memstream.py::testMemStream::testMultipleWriteAndReadBack::1"
+    },
+    {
+      "runner_id": "bluetests.test.test_memstream.testMemStream.testWrite",
+      "status": "passed",
+      "source_id": "blue::tests/python/bluetests/test/test_memstream.py::testMemStream::testWrite::1"
+    },
+    {
+      "runner_id": "bluetests.test.test_memstream.testMemStream.testWriteAndReadBack",
+      "status": "passed",
+      "source_id": "blue::tests/python/bluetests/test/test_memstream.py::testMemStream::testWriteAndReadBack::1"
+    },
+    {
+      "runner_id": "bluetests.test.test_events.TestPostEvent.test_event_gets_sent",
+      "status": "passed",
+      "source_id": "blue::tests/python/bluetests/test/test_events.py::TestPostEvent::test_event_gets_sent::1"
+    },
+    {
+      "runner_id": "bluetests.test.test_events.TestSendEvent.test_event_gets_sent",
+      "status": "passed",
+      "source_id": "blue::tests/python/bluetests/test/test_events.py::TestSendEvent::test_event_gets_sent::1"
+    }
+  ],
+  "tests_run": 6,
+  "exit_code": 0,
+  "output": "testCreate (bluetests.test.test_memstream.testMemStream.testCreate) ... ok\ntestMultipleWriteAndReadBack (bluetests.test.test_memstream.testMemStream.testMultipleWriteAndReadBack) ... ok\ntestWrite (bluetests.test.test_memstream.testMemStream.testWrite) ... ok\ntestWriteAndReadBack (bluetests.test.test_memstream.testMemStream.testWriteAndReadBack) ... ok\ntest_event_gets_sent (bluetests.test.test_events.TestPostEvent.test_event_gets_sent) ... ok\ntest_event_gets_sent (bluetests.test.test_events.TestSendEvent.test_event_gets_sent) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+}

@@ -19,3 +19,4 @@ python-extension = ["pyo3/extension-module"]
 [dependencies]
 bevy = { version = "=0.20.1", default-features = false, features = ["std", "async_executor", "multi_threaded"] }
 pyo3 = { version = "=0.30.1" }
+async-channel = "=2.5.0"

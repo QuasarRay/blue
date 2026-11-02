@@ -1,0 +1,15 @@
+{
+  "kind": "publication",
+  "recorded_at_utc": "2026-11-02T05:21:51.457642+00:00",
+  "repository": "https://github.com/QuasarRay/blue.git",
+  "branch": "blue-rs-dev",
+  "commit": "8bae0e237d3a0017efe6afa3aac8519db80ef3c8",
+  "tree": "38fd15a9f46138ec36c0e58fb64cbae401d703aa",
+  "parent": "2b920547091a25dd3647099c654c66ead25155aa",
+  "mechanism": "Connected GitHub Git Data API; verified tree equal to git write-tree; expected-SHA non-force branch update",
+  "remote_verification": "GitHub GET git/ref/heads/blue-rs-dev and git fetch origin blue-rs-dev both observed the commit",
+  "visible_branch": "blue-rs-dev",
+  "visible_head_after_fast_forward": "8bae0e237d3a0017efe6afa3aac8519db80ef3c8",
+  "main_preserved": "713f0ee394f12da2f8973f42e51a371ea60360d9",
+  "scope": "Foundation and initial original memory-stream test batch only"
+}

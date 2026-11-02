@@ -10,10 +10,10 @@ The selected batch uses Rust 1.98.1, Bevy 0.20.1 and PyO3 0.30.1. The default
 Python path uses CPython 3.15.2's free-threaded build with the GIL disabled.
 The extension rejects a conventional interpreter or a runtime with an active GIL.
 
-Install uv 0.13.6 using its published Linux binary, then install the interpreter:
+Provision pinned uv 0.13.6 and the free-threaded interpreter locally:
 
 ```sh
-.tools/uv/uv python install 3.15.2t --install-dir .tools/python
+python3 tools/bootstrap.py
 ```
 
 The local uv binary is a development tool, not a production dependency. An
@@ -23,6 +23,7 @@ with BLUE_PYTHON. Build and run the unchanged original memory-stream tests:
 ```sh
 python3 tools/build.py --offline
 python3 tools/run_original_tests.py tests/python/bluetests/test/test_memstream.py
+python3 tools/run_original_tests.py tests/python/bluetests/test/test_events.py
 ```
 
 Omit --offline when fetching the pinned Cargo dependencies for the first time.

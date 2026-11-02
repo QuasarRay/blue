@@ -52,8 +52,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "original_bases": [
         "IBlueMemStream",
@@ -132,8 +132,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "original_bases": [
         "IRoot",
@@ -179,8 +179,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "original_bases": [
         "IBlueStream"
@@ -228,8 +228,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "original_bases": [
         "IRoot"
@@ -277,8 +277,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     },
     {
@@ -316,8 +316,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     },
     {
@@ -355,8 +355,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     },
     {
@@ -394,8 +394,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     },
     {
@@ -433,8 +433,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     },
     {
@@ -472,8 +472,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -512,8 +512,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -552,8 +552,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -592,8 +592,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -632,8 +632,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -672,8 +672,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -712,8 +712,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -752,8 +752,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -792,8 +792,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -832,8 +832,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -872,8 +872,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -912,8 +912,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": [
         "CopyFrom deliberately retains source result -1 without effects."
@@ -954,8 +954,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "notes": []
     },
@@ -1010,8 +1010,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     },
     {
@@ -1065,8 +1065,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "replacement": {
         "disposition": "NATIVE_RUST_MECHANISM",
@@ -1109,8 +1109,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     },
     {
@@ -1148,8 +1148,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     },
     {
@@ -1187,8 +1187,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     },
     {
@@ -1234,8 +1234,8 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     },
     {
@@ -1277,8 +1277,743 @@
       "disposition": "BLUE_SPECIFIC",
       "status": "implemented_in_first_batch_pending_complete_inventory_review",
       "receipts": [
-        "migration/receipts/20261102T045814147573Z-build.json",
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blueexposure::BlueClasses::class::693d55ad9129",
+      "original": {
+        "repository": "blueexposure",
+        "qualified_identifier": "BlueClasses",
+        "kind": "class",
+        "canonical_signature": "BlueClasses : IBlueClasses",
+        "declaring_owner": null,
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "reference/blueexposure/BlueClasses.h",
+            "revision": "086a6948fa29e568cbe10f239910cdef70defa61",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueClasses",
+        "kind": "struct",
+        "impl_owner": null
+      },
+      "responsibility": "Initial registered class metadata, construction through PyO3 native constructors, and live instance counts.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Full IBlueClasses trait and inherited IRoot relationships, registration IDs, interfaces, copying, thunkers, lock counts, and deferred destruction remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blueexposure::BlueClasses::PyCreateInstance::method::ed0fbea741c0",
+      "original": {
+        "repository": "blueexposure",
+        "qualified_identifier": "BlueClasses::PyCreateInstance",
+        "kind": "method",
+        "canonical_signature": "static PyObject* PyCreateInstance(PyObject* self, PyObject* args)",
+        "declaring_owner": "BlueClasses",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "reference/blueexposure/BlueClasses_Blue.cpp",
+            "revision": "086a6948fa29e568cbe10f239910cdef70defa61",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueClasses::PyCreateInstance",
+        "kind": "associated_function",
+        "impl_owner": "blue::BlueClasses"
+      },
+      "responsibility": "Resolve registered names and construct the actual Rust object through its native Python constructor.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Optional initialization arguments, IInitialize, source construction flags and complete error policy remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blueexposure::PythonKlass::class::2fca626492ad",
+      "original": {
+        "repository": "blueexposure",
+        "qualified_identifier": "PythonKlass",
+        "kind": "class",
+        "canonical_signature": "PythonKlass",
+        "declaring_owner": null,
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "reference/blueexposure/include/PythonKlass.h",
+            "revision": "086a6948fa29e568cbe10f239910cdef70defa61",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::PythonKlass",
+        "kind": "struct",
+        "impl_owner": null
+      },
+      "responsibility": "Own the Blue decorator class and its authoritative instance variable dictionary.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Full persistence, copying, custom getattr/setattr/delattr hooks, lookup cache and special callable binding policy remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blueexposure::PythonKlass::GetAttr::method::6d55059451fa",
+      "original": {
+        "repository": "blueexposure",
+        "qualified_identifier": "PythonKlass::GetAttr",
+        "kind": "method",
+        "canonical_signature": "PyObject* GetAttr(const char* name, bool* handled, PyObject* self)",
+        "declaring_owner": "PythonKlass",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "reference/blueexposure/PythonKlass.cpp",
+            "revision": "086a6948fa29e568cbe10f239910cdef70defa61",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::PythonKlass::GetAttr",
+        "kind": "inherent_method",
+        "impl_owner": "blue::PythonKlass"
+      },
+      "responsibility": "Instance variables precede class attributes; bind callable class items to the actual Blue wrapper.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "GetAttrFinal and special class-bound method semantics remain pending."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blueexposure::PythonKlass::SetAttr::method::aa1b40a4ba99",
+      "original": {
+        "repository": "blueexposure",
+        "qualified_identifier": "PythonKlass::SetAttr",
+        "kind": "method",
+        "canonical_signature": "int SetAttr(bool* handled, PyObject* self, const char* name, PyObject* v, bool force, bool nosetattr)",
+        "declaring_owner": "PythonKlass",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "reference/blueexposure/PythonKlass.cpp",
+            "revision": "086a6948fa29e568cbe10f239910cdef70defa61",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::PythonKlass::SetAttr",
+        "kind": "inherent_method",
+        "impl_owner": "blue::PythonKlass"
+      },
+      "responsibility": "Write decorator variables to one PyO3-owned dictionary.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "force/nosetattr, custom __setattr__/__delattr__, OnSetAttr and deletion policy remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blueexposure::PythonKlass::Persist::method::918e64251acd",
+      "original": {
+        "repository": "blueexposure",
+        "qualified_identifier": "PythonKlass::Persist",
+        "kind": "method",
+        "canonical_signature": "PyObject* Persist() const",
+        "declaring_owner": "PythonKlass",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "reference/blueexposure/PythonKlass.cpp",
+            "revision": "086a6948fa29e568cbe10f239910cdef70defa61",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::PythonKlass::Persist",
+        "kind": "inherent_method",
+        "impl_owner": "blue::PythonKlass"
+      },
+      "responsibility": "Select declared persistent variables from the same dictionary.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Fallback when __persistvars__ is missing and exact absent-variable semantics remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blueexposure::BlueWrapper::class::155110baed45",
+      "original": {
+        "repository": "blueexposure",
+        "qualified_identifier": "BlueWrapper",
+        "kind": "class",
+        "canonical_signature": "BlueWrapper : BluePythonObject",
+        "declaring_owner": null,
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "reference/blueexposure/BluePyWrap.h",
+            "revision": "086a6948fa29e568cbe10f239910cdef70defa61",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueWrapper",
+        "kind": "pyclass_struct",
+        "impl_owner": null
+      },
+      "responsibility": "Preserve Blue decoration and native wrapper policy while PyO3 owns Python layout/references.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Full source wrapper identity, interface casts, protocols, special attributes including __iroot__, source notifications and lifecycle inventory remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blueexposure::BlueWrapper::PyGetAttr::method::4a61784fbd7a",
+      "original": {
+        "repository": "blueexposure",
+        "qualified_identifier": "BlueWrapper::PyGetAttr",
+        "kind": "method",
+        "canonical_signature": "PyObject* PyGetAttr(const char* name)",
+        "declaring_owner": "BlueWrapper",
+        "visibility": "private",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "reference/blueexposure/BluePyWrap.cpp",
+            "revision": "086a6948fa29e568cbe10f239910cdef70defa61",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueWrapper::PyGetAttr",
+        "kind": "associated_function",
+        "impl_owner": "blue::BlueWrapper"
+      },
+      "responsibility": "Consult decoration first, support _parent_ bypass, Blue metadata names, then native descriptors.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Full IPythonMethods, reflection lookup, GetAttrFinal, trace and native identity behavior remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blueexposure::BlueWrapper::PySetAttr::method::49c579553410",
+      "original": {
+        "repository": "blueexposure",
+        "qualified_identifier": "BlueWrapper::PySetAttr",
+        "kind": "method",
+        "canonical_signature": "int PySetAttr(const char* name, PyObject* v)",
+        "declaring_owner": "BlueWrapper",
+        "visibility": "private",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "reference/blueexposure/BluePyWrap.cpp",
+            "revision": "086a6948fa29e568cbe10f239910cdef70defa61",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueWrapper::PySetAttr",
+        "kind": "associated_function",
+        "impl_owner": "blue::BlueWrapper"
+      },
+      "responsibility": "Attach/rebind the decorator; apply actual native property descriptors and decorator variables outside internal locks.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Complete source ordering, deletion, custom hooks, OnSetAttr and interface notification behavior remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::BluePyOS::class::1ce10f590d0c",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "BluePyOS",
+        "kind": "class",
+        "canonical_signature": "BluePyOS : IBluePyOS",
+        "declaring_owner": null,
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/BluePython.h",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::python_runtime::BluePyOS",
+        "kind": "struct",
+        "impl_owner": null
+      },
+      "responsibility": "Bevy-admitted Python tasks, native task identity, synchronous callbacks, posted callbacks and completion ownership.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Complete IBluePyOS/IBluePython hierarchy and method set, lifecycle/shutdown/cancellation, error service, context/timing, Python facilities, and async-loop bridge remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::BluePyOS::CreateTaskletImpl::method::e4c4c3f55cac",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "BluePyOS::CreateTaskletImpl",
+        "kind": "method",
+        "canonical_signature": "PyObject* CreateTaskletImpl(PyObject* callable, PyObject* args, PyObject* kw, PyObject* context)",
+        "declaring_owner": "BluePyOS",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/BluePython.cpp",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::python_runtime::BluePyOS::CreateTaskletImpl",
+        "kind": "inherent_method",
+        "impl_owner": "blue::python_runtime::BluePyOS"
+      },
+      "responsibility": "Allocate a native stack for synchronous suspension; Bevy admits work and awaits async-channel completion without blocking its async pool.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Full task context, cancellation, source scheduling modes and shutdown remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::BluePyOS::SendEvent::method::4042cf4d7c8a",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "BluePyOS::SendEvent",
+        "kind": "method",
+        "canonical_signature": "bool SendEvent(IRoot* caller, const char* context, const char* eventName, PyObject** pRetval, const char* format, ...)",
+        "declaring_owner": "BluePyOS",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/BluePython.cpp",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::python_runtime::BluePyOS::SendEvent",
+        "kind": "inherent_method",
+        "impl_owner": "blue::python_runtime::BluePyOS"
+      },
+      "responsibility": "Invoke the bound callback before returning; preserve true/false success and trap source scheduling during the callback.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "General DispatchEvent policy, context metadata and native optional result responsibility remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::BluePyOS::PostEvent::method::548603864bdd",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "BluePyOS::PostEvent",
+        "kind": "method",
+        "canonical_signature": "bool PostEvent(IRoot* caller, const char* context, const char* eventName, const char* format, ...)",
+        "declaring_owner": "BluePyOS",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/BluePython.cpp",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::python_runtime::BluePyOS::PostEvent",
+        "kind": "inherent_method",
+        "impl_owner": "blue::python_runtime::BluePyOS"
+      },
+      "responsibility": "Retain the actual callback and arguments in the queued native task; execute only after Bevy admission.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "General DispatchEvent policy, context metadata, cancellation and shutdown remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::Synchro::class::652d1ce28572",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "Synchro",
+        "kind": "class",
+        "canonical_signature": "Synchro",
+        "declaring_owner": null,
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/Synchro.h",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::python_runtime::Synchro",
+        "kind": "struct",
+        "impl_owner": null
+      },
+      "responsibility": "One authoritative native yield queue shared by the Bevy scheduler and Python adapter.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Sleep/timing queues, wakeup, shutdown, statistics, clocks, task-local context and full source relationships remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::Synchro::Yield::method::f6d60db2b989",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "Synchro::Yield",
+        "kind": "method",
+        "canonical_signature": "PyObject* Yield()",
+        "declaring_owner": "Synchro",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/Synchro.cpp",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::python_runtime::Synchro::Yield",
+        "kind": "inherent_method",
+        "impl_owner": "blue::python_runtime::Synchro"
+      },
+      "responsibility": "Suspend a non-main Python task, detached from Python, until a subsequent Bevy pump; enforce synchronous block traps.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Source return/wakeup values and full shutdown/task termination semantics remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::BlueOS::class::d7c9b8bef337",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "BlueOS",
+        "kind": "class",
+        "canonical_signature": "BlueOS : IBlueOS, BeInfo",
+        "declaring_owner": null,
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/BlueOS.h",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueOS",
+        "kind": "struct",
+        "impl_owner": null
+      },
+      "responsibility": "Canonical OS pump state, including a concurrent-safe reentrancy guard; real work runs through Bevy schedules.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Full IBlueOS/BeInfo graph, clock/timer/tick/IO/lifecycle/error/process/platform responsibilities remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::BlueOS::PumpOS::method::4199b96fbad1",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "BlueOS::PumpOS",
+        "kind": "method",
+        "canonical_signature": "void PumpOS()",
+        "declaring_owner": "BlueOS",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/BlueOS.cpp",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueOS::PumpOS",
+        "kind": "inherent_method",
+        "impl_owner": "blue::BlueOS"
+      },
+      "responsibility": "Delegate to the original owning BlueOS pump boundary.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Complete PumpOSInternal behavior remains required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::BlueOS::PumpOSInternal::method::f00f8b4ac6e1",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "BlueOS::PumpOSInternal",
+        "kind": "method",
+        "canonical_signature": "void PumpOSInternal()",
+        "declaring_owner": "BlueOS",
+        "visibility": "private",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/BlueOS.cpp",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueOS::PumpOSInternal",
+        "kind": "inherent_method",
+        "impl_owner": "blue::BlueOS"
+      },
+      "responsibility": "Suppress reentrant/concurrent pumps and execute actual Bevy schedules.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Source clocks, tick ordering, IO delivery, resource completion, diagnostics and timing accounting remain required."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::BlueTestEvents::class::8113e1413940",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "BlueTestEvents",
+        "kind": "class",
+        "canonical_signature": "BlueTestEvents : IRoot",
+        "declaring_owner": null,
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/BlueTestHelpers.h",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueTestEvents",
+        "kind": "struct",
+        "impl_owner": null
+      },
+      "responsibility": "Original fieldless test helper, with both source methods on the canonical owner and a Bevy-owned lifetime.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Source task context labels still need propagation."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::BlueTestEvents::PySendEvent::method::ef68f8d7622c",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "BlueTestEvents::PySendEvent",
+        "kind": "method",
+        "canonical_signature": "PyObject* PySendEvent(PyObject* args)",
+        "declaring_owner": "BlueTestEvents",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/BlueTestHelpers.cpp",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueTestEvents::PySendEvent",
+        "kind": "associated_function",
+        "impl_owner": "blue::BlueTestEvents"
+      },
+      "responsibility": "Convert the original int/double tuple and synchronously dispatch DoSendEvent on the same decorated object.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Pass the source context label BlueTestEvents::DoSendEvent."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ]
+    },
+    {
+      "id": "blue::BlueTestEvents::PyPostEvent::method::043caacbf03d",
+      "original": {
+        "repository": "blue",
+        "qualified_identifier": "BlueTestEvents::PyPostEvent",
+        "kind": "method",
+        "canonical_signature": "PyObject* PyPostEvent(PyObject* args)",
+        "declaring_owner": "BlueTestEvents",
+        "visibility": "public",
+        "role": "production",
+        "source_references": [
+          {
+            "path": "src-cpp/BlueTestHelpers.cpp",
+            "revision": "2b920547091a25dd3647099c654c66ead25155aa",
+            "span_status": "exact declaration/body spans pending"
+          }
+        ],
+        "configuration": "Linux; BLUE_WITH_PYTHON=1"
+      },
+      "rust": {
+        "qualified_path": "blue::BlueTestEvents::PyPostEvent",
+        "kind": "associated_function",
+        "impl_owner": "blue::BlueTestEvents"
+      },
+      "responsibility": "Convert the original int/double tuple and enqueue OnPostEvent on the same decorated object.",
+      "disposition": "BLUE_SPECIFIC",
+      "status": "partial",
+      "unresolved": [
+        "Pass the source context label BlueTestEvents::OnPostEvent."
+      ],
+      "receipts": [
+        "migration/receipts/20261102T052030923694Z-build.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ]
     }
   ],
@@ -1301,7 +2036,15 @@
   ],
   "receipts": [
     "migration/receipts/20261102T045814147573Z-build.json",
-    "migration/receipts/20261102T045900998844Z-original-tests.json"
+    "migration/receipts/20261102T045900998844Z-original-tests.json",
+    "migration/receipts/20261102T051221883134Z-build.json",
+    "migration/receipts/20261102T051246477510Z-original-tests.json",
+    "migration/receipts/20261102T051603549879Z-build.json",
+    "migration/receipts/20261102T051651974616Z-build.json",
+    "migration/receipts/20261102T051727774920Z-original-tests.json",
+    "migration/receipts/20261102T052030923694Z-build.json",
+    "migration/receipts/20261102T052151226455Z-original-tests.json",
+    "migration/receipts/20261102T052151Z-publication.json"
   ],
   "source_files": [
     {
@@ -7503,9 +8246,14 @@
         37,
         43
       ],
-      "status": "undiscovered",
-      "receipts": [],
-      "shadowed": false
+      "status": "passed",
+      "receipts": [
+        "migration/receipts/20261102T051246477510Z-original-tests.json",
+        "migration/receipts/20261102T051727774920Z-original-tests.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ],
+      "shadowed": false,
+      "runner_id": "bluetests.test.test_events.TestSendEvent.test_event_gets_sent"
     },
     {
       "id": "blue::tests/python/bluetests/test/test_events.py::TestPostEvent::test_event_gets_sent::1",
@@ -7519,9 +8267,14 @@
         62,
         70
       ],
-      "status": "undiscovered",
-      "receipts": [],
-      "shadowed": false
+      "status": "passed",
+      "receipts": [
+        "migration/receipts/20261102T051246477510Z-original-tests.json",
+        "migration/receipts/20261102T051727774920Z-original-tests.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
+      ],
+      "shadowed": false,
+      "runner_id": "bluetests.test.test_events.TestPostEvent.test_event_gets_sent"
     },
     {
       "id": "blue::tests/python/bluetests/test/test_exit.py::TestExitPatching::test_exit_with_string_does_not_release_argument::1",
@@ -9121,7 +9874,10 @@
       ],
       "status": "passed",
       "receipts": [
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T045900998844Z-original-tests.json",
+        "migration/receipts/20261102T051246477510Z-original-tests.json",
+        "migration/receipts/20261102T051727774920Z-original-tests.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "shadowed": false,
       "runner_id": "bluetests.test.test_memstream.testMemStream.testCreate"
@@ -9140,7 +9896,10 @@
       ],
       "status": "passed",
       "receipts": [
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T045900998844Z-original-tests.json",
+        "migration/receipts/20261102T051246477510Z-original-tests.json",
+        "migration/receipts/20261102T051727774920Z-original-tests.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "shadowed": false,
       "runner_id": "bluetests.test.test_memstream.testMemStream.testWrite"
@@ -9159,7 +9918,10 @@
       ],
       "status": "passed",
       "receipts": [
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T045900998844Z-original-tests.json",
+        "migration/receipts/20261102T051246477510Z-original-tests.json",
+        "migration/receipts/20261102T051727774920Z-original-tests.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "shadowed": false,
       "runner_id": "bluetests.test.test_memstream.testMemStream.testWriteAndReadBack"
@@ -9178,7 +9940,10 @@
       ],
       "status": "passed",
       "receipts": [
-        "migration/receipts/20261102T045900998844Z-original-tests.json"
+        "migration/receipts/20261102T045900998844Z-original-tests.json",
+        "migration/receipts/20261102T051246477510Z-original-tests.json",
+        "migration/receipts/20261102T051727774920Z-original-tests.json",
+        "migration/receipts/20261102T052151226455Z-original-tests.json"
       ],
       "shadowed": false,
       "runner_id": "bluetests.test.test_memstream.testMemStream.testMultipleWriteAndReadBack"
@@ -15182,8 +15947,53 @@
   "initial_batch_limitations": [
     "Registry implementation is partial; full IBlueClasses trait/method set, IDs, discovery, copying and deferred deletion remain required.",
     "IRoot and ICcpStream are explicit Carbon-core native boundaries; dependency-source method inventories remain unresolved.",
-    "Python Write currently accepts bytes; full generic contiguous-buffer behavior needs PyO3 buffer adapter work.",
     "Non-overridden source properties/identities and complete BlueExposure wrapper semantics remain required.",
     "Candidate spans are provenance hints; full declaration/body and macro expansion extraction remains unresolved."
-  ]
+  ],
+  "auxiliary_rust_infrastructure": [
+    {
+      "path": "blue::python_runtime::BlueTask",
+      "role": "Native task identity/completion handle replacing external Stackless representation; not a substitute for missing Blue-specific task context, cancellation or lifecycle behavior."
+    },
+    {
+      "path": "blue::runtime::ObjectHandle<T>",
+      "role": "Typed lease into the canonical Bevy-owned object. No duplicate source object state."
+    },
+    {
+      "path": "blue::runtime::ClassRegistration",
+      "role": "Initial registration descriptor only; complete Be::ClassRegistration counterpart and related reflection metadata remain pending."
+    }
+  ],
+  "pyo3_replacements": {
+    "version": "0.30.1",
+    "references": "Py<T>/Bound<T>; Python::attach/ detach; #[pyclass]/#[pymethods]/#[pymodule]; PyVisit; native Python descriptor APIs",
+    "retained_blue_policy": "PythonKlass decoration, source names, conversion boundaries, class registration, synchronous/posted event timing and block traps",
+    "status": "partial; full BlueExposure source utility inventory and individual replacements remain unresolved"
+  },
+  "publications": [
+    {
+      "commit": "8bae0e237d3a0017efe6afa3aac8519db80ef3c8",
+      "branch": "blue-rs-dev",
+      "receipt": "migration/receipts/20261102T052151Z-publication.json",
+      "scope": "foundation-memstream"
+    }
+  ],
+  "external_dependencies": {
+    "source_metadata": [
+      "CMakeLists.txt",
+      "vcpkg.json",
+      "vcpkg-configuration.json",
+      "reference/blueexposure/CMakeLists.txt",
+      "reference/blueexposure/vcpkg.json",
+      "reference/blueexposure/vcpkg-configuration.json"
+    ],
+    "boundaries": {
+      "carbon-core": "IRoot, stream and other external interfaces; complete boundary source inventory unresolved",
+      "carbon-io": "Network/IO host boundary; implement Blue-owned semantics using native maintained Rust facilities",
+      "carbon-scheduler": "Replace Stackless implementation with native tasks, retaining Blue task/suspension/context policy",
+      "carbon-pdmprotowrapper": "Host diagnostics boundary; scope and source-defined Blue behavior unresolved",
+      "OpenSSL/CURL/YAML/zlib": "Dependency roles need individual native Rust replacements or maintained facilities when those subsystem batches are implemented"
+    },
+    "wholesale_external_ports_required": false
+  }
 }

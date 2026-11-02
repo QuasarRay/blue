@@ -2,6 +2,7 @@
 //! retrieve the same canonical object state from the world.
 #![allow(non_snake_case)]
 
+use crate::python_runtime::{BluePyOS, BluePythonResource, pump_python};
 use bevy::app::{App, Plugin};
 use bevy::ecs::schedule::ScheduleLabel;
 use bevy::prelude::*;
@@ -23,6 +24,32 @@ pub struct BlueClasses {
 }
 
 impl BlueClasses {
+    /// Python construction policy at the original declaring owner's boundary.
+    /// PyO3's registered native constructor creates the real canonical object.
+    pub fn PyCreateInstance(
+        py: pyo3::Python<'_>,
+        name: &str,
+    ) -> pyo3::PyResult<pyo3::Py<pyo3::PyAny>> {
+        use pyo3::prelude::*;
+        let known = py.detach(|| {
+            BlueRuntime::shared()
+                .world
+                .lock()
+                .expect("Blue world poisoned")
+                .resource::<BlueClasses>()
+                .GetClassRegistration(name)
+                .is_some()
+        });
+        if !known {
+            return Err(pyo3::exceptions::PyRuntimeError::new_err(format!(
+                "Unknown Blue class {name}"
+            )));
+        }
+        let (module, class) = name
+            .rsplit_once('.')
+            .ok_or_else(|| pyo3::exceptions::PyRuntimeError::new_err("Class ID needs a module"))?;
+        Ok(py.import(module)?.getattr(class)?.call0()?.unbind())
+    }
     pub fn RegisterSingleClass(&mut self, registration: ClassRegistration) {
         self.live_count
             .entry(registration.name.clone())
@@ -54,6 +81,8 @@ struct ObjectClass(String);
 pub(crate) struct BluePump;
 #[derive(Resource, Default)]
 struct PumpCount(u64);
+#[derive(Resource)]
+struct BlueOSState(Arc<crate::BlueOS>);
 fn advance_pump(mut count: ResMut<PumpCount>) {
     count.0 += 1;
 }
@@ -63,8 +92,10 @@ impl Plugin for BluePlugin {
     fn build(&self, app: &mut App) {
         app.init_resource::<BlueClasses>()
             .init_resource::<PumpCount>()
+            .insert_resource(BlueOSState(Arc::new(crate::BlueOS::default())))
+            .insert_resource(BluePythonResource(Arc::new(BluePyOS::default())))
             .register_type::<ClassRegistration>()
-            .add_systems(BluePump, advance_pump);
+            .add_systems(BluePump, (advance_pump, pump_python));
         app.world_mut()
             .resource_mut::<BlueClasses>()
             .RegisterSingleClass(ClassRegistration {
@@ -80,6 +111,12 @@ impl Plugin for BluePlugin {
                 .into_iter()
                 .map(str::to_owned)
                 .collect(),
+            });
+        app.world_mut()
+            .resource_mut::<BlueClasses>()
+            .RegisterSingleClass(ClassRegistration {
+                name: "blue.BlueTestEvents".into(),
+                interfaces: vec!["BlueTestEvents".into(), "IRoot".into()],
             });
     }
 }
@@ -124,13 +161,11 @@ impl BlueRuntime {
         world
             .resource_mut::<BlueClasses>()
             .UpdateObjectCount(class, true);
-        ObjectHandle(
-            Arc::new(ObjectLease {
-                runtime: self.clone(),
-                entity,
-            }),
-            std::marker::PhantomData,
-        )
+        ObjectHandle(Arc::new(ObjectLease {
+            runtime: self.clone(),
+            entity,
+            marker: std::marker::PhantomData,
+        }))
     }
     pub fn Pump(&self) {
         self.world
@@ -145,35 +180,57 @@ impl BlueRuntime {
             .resource::<BlueClasses>()
             .PyLiveCount()
     }
+    pub fn python(&self) -> Arc<BluePyOS> {
+        self.world
+            .lock()
+            .expect("Blue world poisoned")
+            .resource::<BluePythonResource>()
+            .0
+            .clone()
+    }
+    pub fn os(&self) -> Arc<crate::BlueOS> {
+        self.world
+            .lock()
+            .expect("Blue world poisoned")
+            .resource::<BlueOSState>()
+            .0
+            .clone()
+    }
 }
 
-struct ObjectLease {
+struct ObjectLease<T: Send + Sync + 'static> {
     runtime: Arc<BlueRuntime>,
     entity: Entity,
+    marker: std::marker::PhantomData<fn() -> T>,
 }
-impl Drop for ObjectLease {
+impl<T: Send + Sync + 'static> Drop for ObjectLease<T> {
     fn drop(&mut self) {
-        let mut world = self.runtime.world.lock().expect("Blue world poisoned");
-        let class = world
-            .get::<ObjectClass>(self.entity)
-            .expect("missing Blue object")
-            .0
-            .clone();
-        world
-            .resource_mut::<BlueClasses>()
-            .UpdateObjectCount(&class, false);
-        world.despawn(self.entity);
+        let state = {
+            let mut world = self.runtime.world.lock().expect("Blue world poisoned");
+            let class = world
+                .get::<ObjectClass>(self.entity)
+                .expect("missing Blue object")
+                .0
+                .clone();
+            world
+                .resource_mut::<BlueClasses>()
+                .UpdateObjectCount(&class, false);
+            let state = world.entity_mut(self.entity).take::<ObjectState<T>>();
+            world.despawn(self.entity);
+            state
+        };
+        // A source object's field destruction may invoke Python finalizers or
+        // other reentrant user code. Membership is removed before destruction,
+        // and neither the world nor a registry lock is held across that code.
+        drop(state);
     }
 }
 
 /// Rust ownership adapter; the source object's nominal type remains separate.
-pub struct ObjectHandle<T: Send + Sync + 'static>(
-    Arc<ObjectLease>,
-    std::marker::PhantomData<fn() -> T>,
-);
+pub struct ObjectHandle<T: Send + Sync + 'static>(Arc<ObjectLease<T>>);
 impl<T: Send + Sync + 'static> Clone for ObjectHandle<T> {
     fn clone(&self) -> Self {
-        Self(self.0.clone(), std::marker::PhantomData)
+        Self(self.0.clone())
     }
 }
 impl<T: Send + Sync + 'static> ObjectHandle<T> {

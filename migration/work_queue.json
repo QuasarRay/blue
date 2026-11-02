@@ -1,10 +1,10 @@
 {
   "format_version": 1,
-  "current_batch": "foundation-memstream",
+  "current_batch": "object-registry-events",
   "batches": [
     {
       "id": "foundation-memstream",
-      "status": "verified_local_publication_pending",
+      "status": "published",
       "source_files": [
         "blue::src-cpp/BlueMemStream.h",
         "blue::src-cpp/BlueMemStream.cpp",
@@ -12,15 +12,16 @@
         "blue::include/IBluePersist.h",
         "blue::tests/python/bluetests/test/test_memstream.py"
       ],
-      "next_action": "Publish the verified foundation milestone via the connected GitHub Git Data API; shell HTTPS credentials are unavailable."
+      "next_action": "Continue complete stream/private/external-boundary inventory; source correspondence is not yet exhaustive.",
+      "publication": "8bae0e237d3a0017efe6afa3aac8519db80ef3c8"
     },
     {
       "id": "object-registry-events",
-      "status": "pending",
+      "status": "event_path_verified_partial_registry",
       "depends_on": [
         "foundation-memstream"
       ],
-      "next_action": "Implement canonical class/interface registry, creation, wrapper identity, BlueTestEvents and Bevy callback pumping; run test_blue and test_events unchanged."
+      "next_action": "Publish event/pump/decorator milestone, then complete original BlueTestHelperAttributes and test_blue, full registration IDs/interfaces and fixture inheritance. Keep scheduler lifecycle/async and all partial source-method obligations open."
     },
     {
       "id": "blueexposure-fixtures",
@@ -45,12 +46,11 @@
       "next_action": "Build/package actual Linux deliverables, run full applicable original configurations and audit correspondence and remote publication."
     }
   ],
-  "blockers": [
+  "blockers": [],
+  "resolved_blockers": [
     {
       "id": "shell-git-auth",
-      "scope": "shell Git publication",
-      "evidence": "git push --dry-run origin HEAD:blue-rs-dev: fatal: could not read Username for https://github.com",
-      "next_action": "Use connected GitHub mutation capabilities if supported; otherwise request credentials while continuing implementation."
+      "resolution": "Connected GitHub Git Data API publishes with expected-SHA guards; shell credentials are not required."
     }
   ]
 }
