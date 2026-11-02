@@ -6,7 +6,7 @@
 
 2. There should be precise one to one correspondence between Original blue objects, methods, etc. and the Rust equivalents. struct names, struct hierarchy, impl block hierarchy and names, trait names, and hierarchy, etc. must be mechanically mapped one to one with the original. Therefore one to one equivalence is simultaneously Behavioral, structural, and nominal.
 
-3. Use the original tests to test what you implement. Do NOT write new tests, run existing ones against the code, and remember that testing should be in the service of accelerating development.
+3. Both Blue Exposure and Blue must be unified into a single repository. So you will be reimplementing both, but do not recreate anything that PyO3 already provides.
 
 4. AGGRESSIVELY use Metaprogramming and Automation to accelerate and simplify development. AGGRESSIVELY use CGP-Oriented metaprogramming, and metaprogramming with proc macro 2, proc macro 2 attribute, and proc macro 2 derive and proc macro 2 delegate, derive deftly and arcane macros to Automate, simplify and accelerate development.
 
@@ -24,7 +24,7 @@
 
 11. The Rust Reimplementation of Blue MUST have Deep and Broad, Vertical and Horizontal integration with bevy. (Use newest release of Bevy)
 
-12. The original blue does not cleanly separate the module of public api and the private internals implemenetation. The Rust Reimplementation must fix that flaw and cleanly and surgically separate Blue public API and private internals. Also, CGP must be used to ensure that internal changes can happen effortlessly with ZERO need for API Redesign.
+12. The original blue does not cleanly separate the module of public api and the private internals implemenetation. The Rust Reimplementation must fix that flaw and cleanly and surgically separate Blue public API and private internals. Also, CGP must be used to ensure that internal changes can happen effortlessly with ZERO need for API Redesign. ALso, The architecture of Blue-rs must be redesigned around concurrent, async, parallel, and multi-threaded python. Also, some of original blue macros blue relies on are deprecated, either bring them back and modernize them, or replace them, depending on which one is more efficient.
 
 
 Target Project Repo: https://github.com/QuasarRay/blue.git
