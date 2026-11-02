@@ -1,0 +1,27 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+// Creator:		Snorri Sturluson
+// Created:		January 2013
+// Copyright (c) 2026 CCP Games
+//
+
+#include "include/BlueExposureMacros.h"
+
+BLUE_DEFINE_INTERFACE_IMPL_EXPORT( IRoot );
+BLUE_DEFINE_INTERFACE_EXPORT( INotify );
+BLUE_DEFINE_INTERFACE_EXPORT( IInitialize );
+BLUE_DEFINE_INTERFACE_EXPORT( IBlueClasses );
+BLUE_DEFINE_INTERFACE_EXPORT( IList );
+BLUE_DEFINE_INTERFACE_EXPORT( IBlueDict );
+BLUE_DEFINE_INTERFACE_EXPORT( IBlueStructureList );
+BLUE_DEFINE_INTERFACE_EXPORT( IListNotify );
+BLUE_DEFINE_INTERFACE_EXPORT( IWeakObject );
+BLUE_DEFINE_INTERFACE_EXPORT( IPythonMethods );
+BLUE_DEFINE_INTERFACE_EXPORT( IPythonNumeric );
+BLUE_DEFINE_INTERFACE_EXPORT( ICopier );
+BLUE_DEFINE_INTERFACE_EXPORT( ICopierCustomAssignment );
+BLUE_DEFINE_INTERFACE_EXPORT( ICustomPersist );
+
+BLUE_DEFINE_CLSID_EXPORT( "blue", List );
+BLUE_DEFINE_CLSID_EXPORT( "blue", Dict );
+BLUE_DEFINE_CLSID_EXPORT( "blue", StructureList );

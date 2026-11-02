@@ -1,0 +1,56 @@
+{
+  "format_version": 1,
+  "current_batch": "foundation-memstream",
+  "batches": [
+    {
+      "id": "foundation-memstream",
+      "status": "verified_local_publication_pending",
+      "source_files": [
+        "blue::src-cpp/BlueMemStream.h",
+        "blue::src-cpp/BlueMemStream.cpp",
+        "blue::src-cpp/BlueStreamMethods.cpp",
+        "blue::include/IBluePersist.h",
+        "blue::tests/python/bluetests/test/test_memstream.py"
+      ],
+      "next_action": "Publish the verified foundation milestone via the connected GitHub Git Data API; shell HTTPS credentials are unavailable."
+    },
+    {
+      "id": "object-registry-events",
+      "status": "pending",
+      "depends_on": [
+        "foundation-memstream"
+      ],
+      "next_action": "Implement canonical class/interface registry, creation, wrapper identity, BlueTestEvents and Bevy callback pumping; run test_blue and test_events unchanged."
+    },
+    {
+      "id": "blueexposure-fixtures",
+      "status": "pending",
+      "depends_on": [
+        "object-registry-events"
+      ],
+      "next_action": "Use original fixture definitions around real Rust counterparts and PyO3, preserving interfaces and superclass ownership; run imported exact Python tests."
+    },
+    {
+      "id": "full-inventory-and-subsystems",
+      "status": "pending",
+      "next_action": "Complete declarations/body/macro/configuration extraction and relationship review for every inventoried file; implement dependency-ready streams, persistence, resources, scheduling, utilities and Python/Bevy paths."
+    },
+    {
+      "id": "linux-package-acceptance",
+      "status": "pending",
+      "depends_on": [
+        "blueexposure-fixtures",
+        "full-inventory-and-subsystems"
+      ],
+      "next_action": "Build/package actual Linux deliverables, run full applicable original configurations and audit correspondence and remote publication."
+    }
+  ],
+  "blockers": [
+    {
+      "id": "shell-git-auth",
+      "scope": "shell Git publication",
+      "evidence": "git push --dry-run origin HEAD:blue-rs-dev: fatal: could not read Username for https://github.com",
+      "next_action": "Use connected GitHub mutation capabilities if supported; otherwise request credentials while continuing implementation."
+    }
+  ]
+}

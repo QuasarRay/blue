@@ -36,3 +36,7 @@ vcpkg_registry_cache/
 # Added by cargo
 
 /target
+/.tools/
+/.runtime/
+/.venv/
+/dist/

@@ -1,0 +1,36 @@
+CMakeUserPresets.json
+cmake-build-*
+
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyd
+
+# Build output
+cmake-build-*/
+.cmake-build-*
+
+# Local development CMake presets
+CMakeUserPresets.json

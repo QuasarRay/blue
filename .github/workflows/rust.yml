@@ -1,0 +1,14 @@
+name: Rust Linux
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Synchronize project guidance
+        run: python3 tools/sync_guidance.py --check
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: 1.98.1
+      - name: Build Rust library and Python extension
+        run: cargo build --locked

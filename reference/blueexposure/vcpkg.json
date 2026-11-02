@@ -1,0 +1,24 @@
+{
+  "dependencies": [
+    {
+      "name": "python3",
+      "version>=": "3.12.9#1"
+    },
+    {
+      "name": "carbon-core",
+      "version>=": "2.4.0"
+    }
+  ],
+  "default-features": ["tests"],
+  "features": {
+    "tests": {
+      "description": "Build test suite",
+      "dependencies": [
+        {
+          "name": "gtest",
+          "version>=": "1.16.0"
+        }
+      ]
+    }
+  }
+}

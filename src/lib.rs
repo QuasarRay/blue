@@ -1,14 +1,12 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+//! Rust implementation of Carbon Blue and BlueExposure on Bevy.
+//! Public source counterparts retain their original spelling. Python adapters
+//! and Bevy ownership infrastructure have separate implementation boundaries.
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+mod exposure;
+mod runtime;
+pub mod streams;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+pub use runtime::{BlueClasses, BluePlugin, BlueRuntime, ClassRegistration, ObjectHandle};
+pub use streams::{
+    IBlueMemStream, IBlueStream, ICacheable, ICcpStream, IRoot, MemStream, SeekOrigin,
+};
