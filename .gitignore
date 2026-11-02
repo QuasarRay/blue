@@ -31,3 +31,8 @@ cmake-build-*/
 .cmake-*
 CMakeUserPresets.json
 vcpkg_registry_cache/
+
+
+# Added by cargo
+
+/target
